@@ -1,0 +1,14 @@
+# Input 3 real numbers a, b, c.
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
+c = float(input("Enter c: "))
+
+# Display the maximum and minimum values among them.
+max_value = max(a, b, c)
+min_value = min(a, b, c)
+print(f"Maximum value: {max_value}")
+print(f"Minimum value: {min_value}")
+
+# Arrange them in ascending order, i.e. a ≤ b ≤ c.
+sorted_values = sorted([a, b, c])
+print(f"Values in ascending order: {sorted_values}")
